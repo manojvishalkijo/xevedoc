@@ -1,0 +1,61 @@
+Frontend: Modern web interface with drag-drop upload, real-time dashboard, document viewer, and collaborative tools
+A. Landing / Product Overview Section
+Hero Banner – Name, tagline, and a quick “Upload & Analyze” call-to-action.
+
+Quick Feature Highlights – Cards showing “Extract”, “Categorize”, “Summarize”, “Export” with icons.
+
+Demo Video / GIF – Show an example of uploading a document and getting insights in seconds.
+
+Supported Formats Strip – Icons for PDF, DOCX, XLSX, JPG, PNG, etc.
+
+B. Upload & Input Module
+Drag & Drop / File Upload – Supports single/multiple files.
+
+Import from Cloud – Google Drive, Dropbox, OneDrive.
+
+Bulk Upload Mode – For batch processing.
+
+Document Source Selector – Choose between “Local Upload” or “CRM/Database Import.”
+
+C. Processing Dashboard
+Document Preview Pane – See the uploaded file before analysis.
+
+OCR & NLP Status Indicator – Show progress bars (OCR phase → NLP phase → Summary phase).
+
+Live Extraction Log – Optional console showing detected fields, entities, or tags in real-time.
+
+D. Results & Insights Panel
+Structured Data View – Table for extracted fields like Name, Date, Amount, Skills, etc.
+
+Smart Tag Cloud – Keywords & topics detected.
+
+Summary Card – AI-generated executive summary.
+
+Document Category Badge – e.g., “Invoice”, “Resume”, “Legal Contract.”
+
+Confidence Scores – % accuracy for each extracted field.
+
+E. Export & Integration Options
+Export to Excel – Button to download extracted data as .xlsx.
+
+Export to CRM – Push to HubSpot, Zoho, Salesforce, etc.
+
+Export to Database – Direct DB connector for MySQL, PostgreSQL, MongoDB.
+
+API Access – Provide an endpoint for developers to integrate into their systems.
+
+F. History & Search
+Processed Documents List – View past uploads with timestamps.
+
+Advanced Search & Filter – By date, category, tags, or file type.
+
+Re-Analyze Option – Re-run AI models with updated rules.
+
+G. Admin & Settings
+Custom Tag Rules – Let admins add domain-specific keyword lists.
+
+Category Mapping – Map extracted categories to business needs.
+
+User Management – For multi-user accounts.
+
+Integration Settings – Configure Excel templates, CRM API keys, DB connection strings.
