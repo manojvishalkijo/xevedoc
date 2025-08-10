@@ -1,0 +1,208 @@
+moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+  Plugin: vite:css
+  File: D:/xeve tech main/xeve-tech-docanly/xevdoc/src/index.css:undefined:NaN
+      at We (D:\xeve tech main\xeve-tech-docanly\xevdoc\node_modules\tailwindcss\dist\lib.js:35:2121)
+      at LazyResult.runOnRoot (D:\xeve tech main\xeve-tech-docanly\xevdoc\node_modules\postcss\lib\lazy-result.js:361:16)
+      at LazyResult.runAsync (D:\xeve tech main\xeve-tech-docanly\xevdoc\node_modules\postcss\lib\lazy-result.js:290:26)
+      at LazyResult.async (D:\xeve tech main\xeve-tech-docanly\xevdoc\node_modules\postcss\lib\lazy-result.js:192:30)
+      at LazyResult.then (D:\xeve tech main\xeve-tech-docanly\xevdoc\node_modules\postcss\lib\lazy-result.js:436:17)
+11:23:46 am [vite] (client) Pre-transform error: [postcss] It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+  Plugin: vite:css
+  File: D:/xeve tech main/xeve-tech-docanly/xevdoc/src/index.css:undefined:NaN
+PS D:\xeve tech main\xeve-tech-docanly\xevdoc> npm install @tailwindcss/postcss
+
+added 40 packages, and audited 204 packages in 3s
+
+26 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\xeve tech main\xeve-tech-docanly\xevdoc> npm run dev
+
+> my-v0-project@0.1.0 dev
+> vite
+
+11:24:21 am [vite] (client) Re-optimizing dependencies because lockfile has changed
+
+  VITE v7.1.1  ready in 281 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+Error: Cannot apply unknown utility class `border-border`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    at onInvalidCandidate (D:\xeve tech main\xeve-tech-docanly\xevdoc\node_modules\tailwindcss\dist\lib.js:18:1312)
+    at ge (D:\xeve tech main\xeve-tech-docanly\xevdoc\node_modules\tailwindcss\dist\lib.js:13:29803)
+    at D:\xeve tech main\xeve-tech-docanly\xevdoc\node_modules\tailwindcss\dist\lib.js:18:373
+    at I (D:\xeve tech main\xeve-tech-docanly\xevdoc\node_modules\tailwindcss\dist\lib.js:3:1656)
+    at je (D:\xeve tech main\xeve-tech-docanly\xevdoc\node_modules\tailwindcss\dist\lib.js:18:172)
+    at bi (D:\xeve tech main\xeve-tech-docanly\xevdoc\node_modules\tailwindcss\dist\lib.js:35:780)
+    at async yi (D:\xeve tech main\xeve-tech-docanly\xevdoc\node_modules\tailwindcss\dist\lib.js:35:1123)
+    at async _r (D:\xeve tech main\xeve-tech-docanly\xevdoc\node_modules\@tailwindcss\node\dist\index.js:10:3384)
+    at async p (D:\xeve tech main\xeve-tech-docanly\xevdoc\node_modules\@tailwindcss\postcss\dist\index.js:10:4019)
+    at async Object.Once (D:\xeve tech main\xeve-tech-docanly\xevdoc\node_modules\@tailwindcss\postcss\dist\index.js:10:4290)
+    at async LazyResult.runAsync (D:\xeve tech main\xeve-tech-docanly\xevdoc\node_modules\postcss\lib\lazy-result.js:293:11)
+    at async runPostCSS (file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/node_modules/vite/dist/node/chunks/dep-eRCq8YxU.js:32596:19)   
+    at async compilePostCSS (file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/node_modules/vite/dist/node/chunks/dep-eRCq8YxU.js:32576:17)
+    at async compileCSS (file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/node_modules/vite/dist/node/chunks/dep-eRCq8YxU.js:32507:26)   
+    at async TransformPluginContext.handler (file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/node_modules/vite/dist/node/chunks/dep-eRCq8YxU.js:32037:54)
+    at async EnvironmentPluginContainer.transform (file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/node_modules/vite/dist/node/chunks/dep-eRCq8YxU.js:31443:14)
+    at async loadAndTransform (file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/node_modules/vite/dist/node/chunks/dep-eRCq8YxU.js:26530:26)
+PS D:\xeve tech main\xeve-tech-docanly\xevdoc> npm install @tailwindcss/postcss
+
+up to date, audited 204 packages in 1s
+
+26 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\xeve tech main\xeve-tech-docanly\xevdoc> npm install
+
+up to date, audited 204 packages in 1s
+
+26 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\xeve tech main\xeve-tech-docanly\xevdoc> npm run dev
+
+> my-v0-project@0.1.0 dev
+> vite
+
+
+  VITE v7.1.1  ready in 233 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+(node:36884) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/postcss.config.js?t=1754805403049 is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to D:\xeve tech main\xeve-tech-docanly\xevdoc\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+PS D:\xeve tech main\xeve-tech-docanly\xevdoc> npm run dev
+
+> my-v0-project@0.1.0 dev
+> vite
+
+
+  VITE v7.1.1  ready in 221 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+ *  History restored 
+
+PS D:\xeve tech main\xeve-tech-docanly\xevdoc> npm run dev
+
+> my-v0-project@0.1.0 dev
+> vite
+
+
+  VITE v7.1.1  ready in 512 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+12:32:25 pm [vite] (client) page reload src/main.tsx
+PS D:\xeve tech main\xeve-tech-docanly\xevdoc>
+PS D:\xeve tech main\xeve-tech-docanly\xevdoc> npm i --save-dev @types/react
+
+added 2 packages, and audited 206 packages in 2s
+
+26 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\xeve tech main\xeve-tech-docanly\xevdoc> npm run dev
+
+> my-v0-project@0.1.0 dev
+> vite
+
+12:33:34 pm [vite] (client) Re-optimizing dependencies because lockfile has changed
+
+  VITE v7.1.1  ready in 320 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+12:34:38 pm [vite] (client) hmr update /src/index.css
+PS D:\xeve tech main\xeve-tech-docanly\xevdoc> npm run dev
+
+> my-v0-project@0.1.0 dev
+> vite
+
+
+  VITE v7.1.1  ready in 252 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+(node:20456) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/postcss.config.js?t=1754809481949 is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to D:\xeve tech main\xeve-tech-docanly\xevdoc\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+12:34:43 pm [vite] (client) Pre-transform error: Failed to load PostCSS config (searchPath: D:/xeve tech main/xeve-tech-docanly/xevdoc): [ReferenceError] require is not defined in ES module scope, you can use import instead
+ReferenceError: require is not defined in ES module scope, you can use import instead
+    at file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/postcss.config.js?t=1754809481949:2:12        
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async req$3 (file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/node_modules/vite/dist/node/chunks/dep-eRCq8YxU.js:8733:12)
+    at async Object.search (file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/node_modules/vite/dist/node/chunks/dep-eRCq8YxU.js:8543:24)
+12:34:43 pm [vite] Internal server error: Failed to load PostCSS config (searchPath: D:/xeve tech main/xeve-tech-docanly/xevdoc): [ReferenceError] require is not defined in ES module scope, you can use import insteadReferenceError: require is not defined in ES module scope, you can use import instead       
+    at file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/postcss.config.js?t=1754809481949:2:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async req$3 (file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/node_modules/vite/dist/node/chunks/dep-eRCq8YxU.js:8733:12)
+    at async Object.search (file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/node_modules/vite/dist/node/chunks/dep-eRCq8YxU.js:8543:24)
+  Plugin: vite:css
+  File: D:/xeve tech main/xeve-tech-docanly/xevdoc/src/index.css
+PS D:\xeve tech main\xeve-tech-docanly\xevdoc> npm run dev
+
+> my-v0-project@0.1.0 dev
+> vite
+
+
+  VITE v7.1.1  ready in 240 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+(node:8688) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/postcss.config.js?t=1754809539922 is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to D:\xeve tech main\xeve-tech-docanly\xevdoc\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+12:35:40 pm [vite] (client) Pre-transform error: Failed to load PostCSS config (searchPath: D:/xeve tech main/xeve-tech-docanly/xevdoc): [ReferenceError] require is not defined in ES module scope, you can use import instead
+ReferenceError: require is not defined in ES module scope, you can use import instead
+    at file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/postcss.config.js?t=1754809539922:2:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async req$3 (file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/node_modules/vite/dist/node/chunks/dep-eRCq8YxU.js:8733:12)
+    at async Object.search (file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/node_modules/vite/dist/node/chunks/dep-eRCq8YxU.js:8543:24)
+  Plugin: vite:css
+  File: D:/xeve tech main/xeve-tech-docanly/xevdoc/src/index.css
+12:35:40 pm [vite] Internal server error: Failed to load PostCSS config (searchPath: D:/xeve tech main/xeve-tech-docanly/xevdoc): [ReferenceError] require is not defined in ES module scope, you can use import instead
+ReferenceError: require is not defined in ES module scope, you can use import instead
+    at file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/postcss.config.js?t=1754809539922:2:12
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async req$3 (file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/node_modules/vite/dist/node/chunks/dep-eRCq8YxU.js:8733:12)
+    at async Object.search (file:///D:/xeve%20tech%20main/xeve-tech-docanly/xevdoc/node_modules/vite/dist/node/chunks/dep-eRCq8YxU.js:8543:24)
+  Plugin: vite:css
+  File: D:/xeve tech main/xeve-tech-docanly/xevdoc/src/index.css
+PS D:\xeve tech main\xeve-tech-docanly\xevdoc> npm run dev
+
+> my-v0-project@0.1.0 dev
+> vite
+
+
+  VITE v7.1.1  ready in 220 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+
+
+
+
+
